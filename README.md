@@ -63,7 +63,7 @@ Uses YOLOv8 (`best.pt`) for button detection.
 See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Feedback
-Reach out on Twitter/Discord (update links).
+Reach out on Twitter
 
 ## Compatibility
 MacOS, Windows, Linux (with an X server installed).

@@ -14,9 +14,6 @@
 - **Integration**: Currently integrated with **GPT-4o, GPT-4.1, o1, Gemini Pro Vision, Claude 3, Qwen-VL and LLaVa.**
 - **Future Plans**: Support for additional models.
 
-## Demo
-[Update with new video]
-
 ## Run `Navigator`
 
 1. **Install the project**

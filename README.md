@@ -4,7 +4,7 @@
   <strong>A framework to enable multimodal models to operate a computer.</strong>
 </p>
 <p align="center">
-  Using the same inputs and outputs as a human operator, the model views the screen and decides on a series of mouse and keyboard actions to reach an objective...
+  Using the same inputs and outputs as a human operator, the model views the screen and decides on a series of mouse and keyboard actions to reach an objective.
 </p>
 
 <!-- Image placeholder: Update with new demo gif -->
@@ -19,6 +19,10 @@
 1. **Install the project**
 ```
 pip install navigator
+```
+If you see `'operate' is not recognized...` you still have the older PyPI package. Upgrade once version 1.0.1 is published, or install directly from GitHub:
+```
+pip install navigator@git+https://github.com/MagellaX/Navigator.git
 ```
 2. **Run the project**
 ```
@@ -43,7 +47,7 @@ Qwen: `operate -m qwen-vl` (key from [bailian.console.aliyun.com](https://bailia
 LLaVA (Ollama): `operate -m llava` (local; install from [ollama.ai](https://ollama.ai)).
 
 ### Voice Mode `--voice`
-Clone: `git clone https://github.com/yourorg/navigator.git`  
+Clone: `git clone https://github.com/YourOrg/navigator.git`  
 `cd navigator`  
 `pip install -r requirements-audio.txt`  
 Mac: `brew install portaudio` | Linux: `sudo apt install portaudio19-dev python3-pyaudio`  
@@ -59,7 +63,7 @@ Uses YOLOv8 (`best.pt`) for button detection.
 See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Feedback
-Reach out on Twitter...
+Reach out on Twitter/Discord (update links).
 
 ## Compatibility
 MacOS, Windows, Linux (with an X server installed).
